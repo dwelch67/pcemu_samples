@@ -1,0 +1,28 @@
+
+Derived from what I assume to be David Hedleys, pcemu pc emulator
+an 8088/86 instruction set simulator plus extras.  I removed the
+extras.  The original directory contains the source for the package
+I started with and the cpu directory is the derivative.
+
+Ideally I would have created my own 808x simulator from scratch but
+have not done that.
+
+The goal for this project is to take the pcemu platform and perhaps in
+the future additional 808x simulators, to provide a platform for learning
+beginning x86 programming.  Granted pretty much all computers in regular
+use today are greatly advanced from the 808x.  The hard part of x86
+assembly can be learned on an 8086 and then transitioning to the current
+generation or perhaps jumping to the 386 then forward from there.
+
+I do not recommend x86 assembly language as your first assembly
+programming language.  I have provided a number of projects, lsasim,
+thumbulator, and mspulator (at github) that are cleaner instruction
+sets.  Getting your feet wet with a good instruction set builds a good
+foundation that you can then build upon with good or bad instruction
+sets.
+
+There seems to be an understandable strong desire to learn x86 assembly
+since most folks are using x86 computers day to day.  Hopefully this
+will develop into a safe sandbox in which to transition into x86
+or at least 808x assembly language programming.
+
